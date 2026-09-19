@@ -1,0 +1,32 @@
+# Project Report
+
+## UAV Tracking System with Kalman Filter & Obstacle Detection
+
+### Objective
+Combine GPS-based UAV tracking, ultrasonic obstacle detection, and Kalman-filtered position estimation.
+
+### Modules
+- C8051 embedded controller
+- GPS position acquisition
+- Ultrasonic proximity sensing
+- Kalman position filtering
+- Python trajectory visualization
+
+### Data Flow
+```text
+GPS + Ultrasonic
+       ↓
+     C8051
+       ↓
+Sensor/Telemetry Data
+       ↓
+Python
+       ↓
+Kalman Filter
+       ↓
+Position Estimate
+       ↓
+Trajectory Visualization
+```
+
+> This report describes the reconstructed repository implementation. Hardware-specific GPIO mappings, timer configuration, UART settings, and measured experimental values should be updated to match the actual setup.
